@@ -125,7 +125,9 @@ include 'includes/header.php';
                 <div style="color: #FBBF24; margin-bottom: 1rem;">★★★★★</div>
                 <p style="font-style: italic; margin-bottom: 1.5rem;">"ZYLO completely transformed how we handle our inventory. What used to take hours of manual checking now happens automatically in real-time."</p>
                 <div style="display: flex; align-items: center; gap: 1rem; margin-top: auto;">
-                    <div style="width: 40px; height: 40px; background: #E5E7EB; border-radius: 50%;"></div>
+                    <div style="width: 40px; height: 40px; overflow: hidden; border-radius: 50%;">
+                        <img src="assets/store/avatar-sarah.jpg" alt="Sarah Jenkins" style="width:40px;height:40px;object-fit:cover;display:block">
+                    </div>
                     <div>
                         <h4 style="margin: 0; font-size: 1rem;">Sarah Jenkins</h4>
                         <span style="font-size: 0.85rem; color: var(--text-muted);">Operations Manager, Globex</span>
@@ -136,7 +138,9 @@ include 'includes/header.php';
                 <div style="color: #FBBF24; margin-bottom: 1rem;">★★★★★</div>
                 <p style="font-style: italic; margin-bottom: 1.5rem;">"The invoicing and accounts module is a lifesaver. We get paid faster and our accountant loves the clean export formats."</p>
                 <div style="display: flex; align-items: center; gap: 1rem; margin-top: auto;">
-                    <div style="width: 40px; height: 40px; background: #E5E7EB; border-radius: 50%;"></div>
+                    <div style="width: 40px; height: 40px; overflow: hidden; border-radius: 50%;">
+                        <img src="assets/store/avatar-david.jpg" alt="David Chen" style="width:40px;height:40px;object-fit:cover;display:block">
+                    </div>
                     <div>
                         <h4 style="margin: 0; font-size: 1rem;">David Chen</h4>
                         <span style="font-size: 0.85rem; color: var(--text-muted);">CEO, TechStart</span>
@@ -147,7 +151,9 @@ include 'includes/header.php';
                 <div style="color: #FBBF24; margin-bottom: 1rem;">★★★★★</div>
                 <p style="font-style: italic; margin-bottom: 1.5rem;">"We switched from a massive, clunky CRM to ZYLO and haven't looked back. It's fast, intuitive, and exactly what our sales team needed."</p>
                 <div style="display: flex; align-items: center; gap: 1rem; margin-top: auto;">
-                    <div style="width: 40px; height: 40px; background: #E5E7EB; border-radius: 50%;"></div>
+                    <div style="width: 40px; height: 40px; overflow: hidden; border-radius: 50%;">
+                        <img src="assets/store/avatar-emily.jpg" alt="Emily Watson" style="width:40px;height:40px;object-fit:cover;display:block">
+                    </div>
                     <div>
                         <h4 style="margin: 0; font-size: 1rem;">Emily Watson</h4>
                         <span style="font-size: 0.85rem; color: var(--text-muted);">Sales Director, ACME Corp</span>
