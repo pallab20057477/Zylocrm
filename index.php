@@ -122,7 +122,7 @@ include 'includes/header.php';
         </div>
         <div class="grid-3">
             <div class="card" style="background: white;">
-                <div style="color: #FBBF24; margin-bottom: 1rem;">â˜…â˜…â˜…â˜…â˜…</div>
+                <div style="color: #FBBF24; margin-bottom: 1rem;">★★★★★</div>
                 <p style="font-style: italic; margin-bottom: 1.5rem;">"ZYLO completely transformed how we handle our inventory. What used to take hours of manual checking now happens automatically in real-time."</p>
                 <div style="display: flex; align-items: center; gap: 1rem; margin-top: auto;">
                     <div style="width: 40px; height: 40px; background: #E5E7EB; border-radius: 50%;"></div>
@@ -133,7 +133,7 @@ include 'includes/header.php';
                 </div>
             </div>
             <div class="card" style="background: white;">
-                <div style="color: #FBBF24; margin-bottom: 1rem;">â˜…â˜…â˜…â˜…â˜…</div>
+                <div style="color: #FBBF24; margin-bottom: 1rem;">★★★★★</div>
                 <p style="font-style: italic; margin-bottom: 1.5rem;">"The invoicing and accounts module is a lifesaver. We get paid faster and our accountant loves the clean export formats."</p>
                 <div style="display: flex; align-items: center; gap: 1rem; margin-top: auto;">
                     <div style="width: 40px; height: 40px; background: #E5E7EB; border-radius: 50%;"></div>
@@ -144,7 +144,7 @@ include 'includes/header.php';
                 </div>
             </div>
             <div class="card" style="background: white;">
-                <div style="color: #FBBF24; margin-bottom: 1rem;">â˜…â˜…â˜…â˜…â˜…</div>
+                <div style="color: #FBBF24; margin-bottom: 1rem;">★★★★★</div>
                 <p style="font-style: italic; margin-bottom: 1.5rem;">"We switched from a massive, clunky CRM to ZYLO and haven't looked back. It's fast, intuitive, and exactly what our sales team needed."</p>
                 <div style="display: flex; align-items: center; gap: 1rem; margin-top: auto;">
                     <div style="width: 40px; height: 40px; background: #E5E7EB; border-radius: 50%;"></div>
