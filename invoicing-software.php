@@ -25,7 +25,7 @@ include 'includes/header.php';
                 </ul>
             </div>
             <div>
-                <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Invoicing Software" style="border-radius: 16px; box-shadow: var(--shadow-md);">
+                <img src="assets/store/section-1.jpg" alt="Invoicing Software" style="border-radius: 16px; box-shadow: var(--shadow-md);">
             </div>
         </div>
 
@@ -37,7 +37,7 @@ include 'includes/header.php';
                 <p>Experience unparalleled speed and reliability. With advanced analytics built directly into the module, you'll gain insights that were previously hidden, empowering you to make data-driven decisions instantly.</p>
             </div>
             <div style="order: 1;">
-                <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Dashboard metrics" style="border-radius: 16px; box-shadow: var(--shadow-md);">
+                <img src="assets/store/section-2.jpg" alt="Dashboard metrics" style="border-radius: 16px; box-shadow: var(--shadow-md);">
             </div>
         </div>
 
@@ -56,3 +56,4 @@ include 'includes/header.php';
 </section>
 
 <?php include 'includes/footer.php'; ?>
+

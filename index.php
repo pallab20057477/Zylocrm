@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 $pageTitle = "Home";
 $pageDescription = "ZYLO CRM helps businesses manage accounts, inventory, invoices, and client relationships from one streamlined platform.";
 $pageKeywords = "CRM software, business management software, inventory management, invoicing software, accounts management";
@@ -21,7 +21,7 @@ include 'includes/header.php';
     <div class="container">
         <div class="hero-content">
             <h1 style="font-size: 4rem; line-height: 1.1;">The Future of Business Management is Here</h1>
-            <p style="font-size: 1.35rem; margin-bottom: 2rem;">ZYLO CRM empowers your business with intelligent accounts management, seamless inventory tracking, and exceptional client relationship tools—all unified in one lightning-fast platform.</p>
+            <p style="font-size: 1.35rem; margin-bottom: 2rem;">ZYLO CRM empowers your business with intelligent accounts management, seamless inventory tracking, and exceptional client relationship toolsâ€”all unified in one lightning-fast platform.</p>
             <div class="hero-btns" style="margin-bottom: 2rem;">
                 <a href="services" class="btn btn-primary" style="padding: 1rem 2rem; font-size: 1.1rem;">Start Your Free Trial</a>
                 <a href="contact" class="btn btn-outline" style="padding: 1rem 2rem; font-size: 1.1rem;">Book a Demo</a>
@@ -29,7 +29,7 @@ include 'includes/header.php';
             <p style="font-size: 0.9rem; color: var(--text-muted);">Trusted by over 10,000+ fast-growing companies worldwide.</p>
         </div>
         <div class="hero-image">
-            <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Dashboard Preview">
+            <img src="assets/store/hero-1.jpg" alt="Dashboard Preview">
         </div>
     </div>
 </section>
@@ -122,7 +122,7 @@ include 'includes/header.php';
         </div>
         <div class="grid-3">
             <div class="card" style="background: white;">
-                <div style="color: #FBBF24; margin-bottom: 1rem;">★★★★★</div>
+                <div style="color: #FBBF24; margin-bottom: 1rem;">â˜…â˜…â˜…â˜…â˜…</div>
                 <p style="font-style: italic; margin-bottom: 1.5rem;">"ZYLO completely transformed how we handle our inventory. What used to take hours of manual checking now happens automatically in real-time."</p>
                 <div style="display: flex; align-items: center; gap: 1rem; margin-top: auto;">
                     <div style="width: 40px; height: 40px; background: #E5E7EB; border-radius: 50%;"></div>
@@ -133,7 +133,7 @@ include 'includes/header.php';
                 </div>
             </div>
             <div class="card" style="background: white;">
-                <div style="color: #FBBF24; margin-bottom: 1rem;">★★★★★</div>
+                <div style="color: #FBBF24; margin-bottom: 1rem;">â˜…â˜…â˜…â˜…â˜…</div>
                 <p style="font-style: italic; margin-bottom: 1.5rem;">"The invoicing and accounts module is a lifesaver. We get paid faster and our accountant loves the clean export formats."</p>
                 <div style="display: flex; align-items: center; gap: 1rem; margin-top: auto;">
                     <div style="width: 40px; height: 40px; background: #E5E7EB; border-radius: 50%;"></div>
@@ -144,7 +144,7 @@ include 'includes/header.php';
                 </div>
             </div>
             <div class="card" style="background: white;">
-                <div style="color: #FBBF24; margin-bottom: 1rem;">★★★★★</div>
+                <div style="color: #FBBF24; margin-bottom: 1rem;">â˜…â˜…â˜…â˜…â˜…</div>
                 <p style="font-style: italic; margin-bottom: 1.5rem;">"We switched from a massive, clunky CRM to ZYLO and haven't looked back. It's fast, intuitive, and exactly what our sales team needed."</p>
                 <div style="display: flex; align-items: center; gap: 1rem; margin-top: auto;">
                     <div style="width: 40px; height: 40px; background: #E5E7EB; border-radius: 50%;"></div>
@@ -192,3 +192,4 @@ include 'includes/header.php';
 </section>
 
 <?php include 'includes/footer.php'; ?>
+
