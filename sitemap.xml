@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://zylocrm.com/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://zylocrm.com/about</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://zylocrm.com/services</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://zylocrm.com/contact</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://zylocrm.com/accounting-software</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://zylocrm.com/ai-accounting-agent</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://zylocrm.com/gst-billing-software</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://zylocrm.com/invoicing-software</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://zylocrm.com/quotation-software</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://zylocrm.com/e-invoicing-software</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://zylocrm.com/eway-bill-software</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://zylocrm.com/inventory-software</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://zylocrm.com/invoicing-api</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://zylocrm.com/sales-crm</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://zylocrm.com/lead-management-software</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://zylocrm.com/subscription-management-software</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://zylocrm.com/privacy-policy</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://zylocrm.com/terms</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://zylocrm.com/cancellation</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://zylocrm.com/data-safety</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+</urlset>
