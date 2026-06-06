@@ -5,9 +5,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (hamburger && navMenu) {
         hamburger.addEventListener('click', () => {
-            hamburger.classList.toggle('active');
+            const isActive = hamburger.classList.toggle('active');
             navMenu.classList.toggle('active');
+            hamburger.setAttribute('aria-expanded', String(isActive));
         });
+
 
         // Dropdown logic for mobile
         const dropbtn = document.querySelector('.dropbtn');
@@ -16,10 +18,12 @@ document.addEventListener('DOMContentLoaded', () => {
             dropbtn.addEventListener('click', (e) => {
                 if (window.innerWidth <= 992) {
                     e.preventDefault();
-                    dropdown.classList.toggle('active');
+                    const isActive = dropdown.classList.toggle('active');
+                    dropbtn.setAttribute('aria-expanded', String(isActive));
                 }
             });
         }
+
 
         // Close menu when a link is clicked (excluding the dropdown button itself)
         document.querySelectorAll('.nav-menu a:not(.dropbtn)').forEach(n => n.addEventListener('click', () => {
@@ -29,8 +33,30 @@ document.addEventListener('DOMContentLoaded', () => {
         }));
     }
 
+    // Close mobile menu on resize to desktop
+    window.addEventListener('resize', () => {
+        if (window.innerWidth > 768) {
+            if (hamburger && navMenu) {
+                hamburger.classList.remove('active');
+                navMenu.classList.remove('active');
+                hamburger.setAttribute('aria-expanded', 'false');
+            }
+        }
+    });
+
     // Set active link based on current URL
     const currentPath = window.location.pathname;
+
+    // Keep aria-expanded in sync for accessibility
+    if (hamburger && navMenu) {
+        const updateAria = () => {
+            const isActive = navMenu.classList.contains('active');
+            hamburger.setAttribute('aria-expanded', String(isActive));
+        };
+        updateAria();
+    }
+
+
     const navLinks = document.querySelectorAll('.nav-menu a');
     
     navLinks.forEach(link => {

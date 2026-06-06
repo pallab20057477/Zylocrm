@@ -67,14 +67,15 @@ $pageSchema = isset($pageSchema) ? $pageSchema : [];
                     onerror="this.onerror=null; this.outerHTML='<h2 style=\'color: var(--primary); margin:0;\'>ZYLO</h2>';">
             </a>
 
-            <nav class="nav-menu">
+            <nav class="nav-menu" aria-label="Primary">
                 <a href="/">Home</a>
                 <a href="about">About</a>
                 
                 <!-- Mega Menu Dropdown -->
                 <div class="dropdown">
-                    <a href="javascript:void(0)" class="dropbtn">Products <svg style="width:12px;height:12px;vertical-align:middle;margin-left:2px;" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></a>
+                    <a href="javascript:void(0)" class="dropbtn" aria-haspopup="true" aria-expanded="false">Products <svg style="width:12px;height:12px;vertical-align:middle;margin-left:2px;" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></a>
                     <div class="dropdown-content mega-menu">
+
                         <div class="mega-column">
                             <h3>Solutions</h3>
                             <a href="accounting-software">Accounting Software</a>
@@ -122,10 +123,11 @@ $pageSchema = isset($pageSchema) ? $pageSchema : [];
                 <a href="contact">Contact Us</a>
             </nav>
 
-            <button class="hamburger">
+            <button class="hamburger" type="button" aria-label="Open menu" aria-controls="primary-nav" aria-expanded="false">
                 <span></span>
                 <span></span>
                 <span></span>
             </button>
+
         </div>
     </header>
