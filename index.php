@@ -98,11 +98,11 @@ include 'includes/header.php';
             <!-- Social proof micro-line -->
             <div style="display:flex; align-items:center; gap:0.75rem; flex-wrap:wrap;">
                 <div style="display:flex;">
-                    <img src="assets/store/avatar-sarah.jpg" alt="ZYLO user" width="30" height="30"
+                    <img src="assets/store/avatar-sarah.svg" alt="ZYLO user" width="30" height="30"
                          style="width:30px;height:30px;border-radius:50%;object-fit:cover;border:2px solid white;margin-left:-6px;">
-                    <img src="assets/store/avatar-emily.jpg" alt="ZYLO user" width="30" height="30"
+                    <img src="assets/store/avatar-emily.svg" alt="ZYLO user" width="30" height="30"
                          style="width:30px;height:30px;border-radius:50%;object-fit:cover;border:2px solid white;margin-left:-10px;">
-                    <img src="assets/store/avatar-david.jpg" alt="ZYLO user" width="30" height="30"
+                    <img src="assets/store/avatar-david.svg" alt="ZYLO user" width="30" height="30"
                          style="width:30px;height:30px;border-radius:50%;object-fit:cover;border:2px solid white;margin-left:-10px;">
                 </div>
                 <span style="color:var(--text-muted); font-size:0.875rem;">
@@ -362,21 +362,21 @@ include 'includes/header.php';
                     'quote' => '"ZYLO completely transformed how we handle inventory. What used to take hours of manual checking now happens automatically in real-time. We\'ve cut stock-related losses by 40%."',
                     'name'  => 'Sarah Jenkins',
                     'role'  => 'Operations Manager, Globex',
-                    'img'   => 'assets/store/avatar-sarah.jpg',
+                    'img'   => 'assets/store/avatar-sarah.svg',
                     'stars' => 5
                 ],
                 [
                     'quote' => '"The invoicing module is a lifesaver. We get paid faster, and our CA loves the clean export formats. Setup took less than a day."',
                     'name'  => 'David Chen',
                     'role'  => 'CEO, TechStart',
-                    'img'   => 'assets/store/avatar-david.jpg',
+                    'img'   => 'assets/store/avatar-david.svg',
                     'stars' => 5
                 ],
                 [
                     'quote' => '"We switched from a massive, clunky CRM to ZYLO and haven\'t looked back. It\'s fast, intuitive, and exactly what our sales team needed to close more deals."',
                     'name'  => 'Emily Watson',
                     'role'  => 'Sales Director, ACME Corp',
-                    'img'   => 'assets/store/avatar-emily.jpg',
+                    'img'   => 'assets/store/avatar-emily.svg',
                     'stars' => 5
                 ],
             ];

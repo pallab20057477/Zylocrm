@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200" role="img" aria-label="Sarah Jenkins avatar">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0c4f78"/>
+      <stop offset="100%" stop-color="#1871a5"/>
+    </linearGradient>
+  </defs>
+  <rect width="200" height="200" rx="100" fill="url(#g)"/>
+  <circle cx="100" cy="82" r="34" fill="#ffffff" opacity="0.18"/>
+  <path d="M54 160c8-29 32-44 46-44s38 15 46 44" fill="#ffffff" opacity="0.24"/>
+  <text x="100" y="114" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="56" font-weight="800" fill="#ffffff">SJ</text>
+</svg>
