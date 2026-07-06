@@ -174,7 +174,7 @@ include 'includes/header.php';
             <p>One platform to handle finances, stock, and clients — without the complexity.</p>
         </div>
 
-        <div class="grid-3" style="padding-top:1.25rem; align-items:start;">
+        <div class="grid-3" style="padding-top:1.25rem; align-items:stretch;">
             <div class="card">
                 <div class="card-icon">
                     <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
@@ -189,8 +189,8 @@ include 'includes/header.php';
                 <a href="accounting-software" style="font-weight:600; margin-top:auto; display:inline-flex; align-items:center; gap:0.3rem;" aria-label="Learn more about Accounts & Invoicing">Learn more &rarr;</a>
             </div>
 
-            <div class="card" style="border-color:var(--primary); box-shadow:var(--shadow-lg); overflow:visible; margin-top:1rem;">
-                <div style="position:absolute; top:0; left:50%; transform:translate(-50%,-50%); background:var(--primary); color:white; font-size:0.7rem; font-weight:700; padding:0.35rem 1.1rem; border-radius:50px; text-transform:uppercase; letter-spacing:1px; white-space:nowrap; box-shadow:0 4px 12px rgba(12,79,120,0.3);">Most Popular</div>
+            <div class="card card-featured">
+                <div class="card-badge">Most Popular</div>
                 <div class="card-icon">
                     <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4" /></svg>
                 </div>
@@ -219,25 +219,37 @@ include 'includes/header.php';
             </div>
         </div>
 
-        <!-- Secondary feature grid -->
-        <div style="display:grid; grid-template-columns:repeat(3,1fr); gap:1.25rem; margin-top:1.5rem;" class="secondary-feat-grid">
+        <div class="feature-tools-panel">
+            <div class="feature-tools-header">
+                <div>
+                    <h3>Explore More Modules</h3>
+                    <p>Additional tools that connect your workflow from billing to mobility.</p>
+                </div>
+                <a href="services" class="feature-tools-link">View all modules &rarr;</a>
+            </div>
+
+            <div class="tool-grid">
             <?php
             $miniFeatures = [
-                ['icon'=>'M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z', 'label'=>'GST Billing', 'href'=>'gst-billing-software'],
-                ['icon'=>'M9 17v-2m3 2v-4m3 4v-6m2 10H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z', 'label'=>'Quotation Software', 'href'=>'quotation-software'],
-                ['icon'=>'M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z', 'label'=>'e-Invoicing', 'href'=>'e-invoicing-software'],
-                ['icon'=>'M13 10V3L4 14h7v7l9-11h-7z', 'label'=>'Lead Management', 'href'=>'lead-management-software'],
-                ['icon'=>'M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15', 'label'=>'Subscription Mgmt', 'href'=>'subscription-management-software'],
-                ['icon'=>'M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z', 'label'=>'Mobile App', 'href'=>'download-mobile-app'],
+                ['icon'=>'M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z', 'label'=>'GST Billing', 'desc'=>'Tax-ready billing', 'href'=>'gst-billing-software'],
+                ['icon'=>'M9 17v-2m3 2v-4m3 4v-6m2 10H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z', 'label'=>'Quotation Software', 'desc'=>'Send quotes faster', 'href'=>'quotation-software'],
+                ['icon'=>'M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z', 'label'=>'e-Invoicing', 'desc'=>'Compliant delivery', 'href'=>'e-invoicing-software'],
+                ['icon'=>'M13 10V3L4 14h7v7l9-11h-7z', 'label'=>'Lead Management', 'desc'=>'Track every lead', 'href'=>'lead-management-software'],
+                ['icon'=>'M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15', 'label'=>'Subscription Mgmt', 'desc'=>'Recurring revenue', 'href'=>'subscription-management-software'],
+                ['icon'=>'M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z', 'label'=>'Mobile App', 'desc'=>'On the go access', 'href'=>'download-mobile-app'],
             ];
             foreach ($miniFeatures as $f): ?>
-            <a href="<?= $f['href'] ?>" style="display:flex; align-items:center; gap:0.75rem; background:white; padding:1rem 1.25rem; border-radius:12px; border:1px solid var(--border-color); color:var(--text-main); font-weight:500; font-size:0.9rem; transition:all 0.2s;" onmouseover="this.style.borderColor='var(--primary)';this.style.boxShadow='var(--shadow-md)';" onmouseout="this.style.borderColor='var(--border-color)';this.style.boxShadow='none';" aria-label="<?= $f['label'] ?>">
-                <span style="width:34px;height:34px;background:rgba(12,79,120,0.08);border-radius:8px;display:flex;align-items:center;justify-content:center;flex-shrink:0;">
-                    <svg width="17" height="17" fill="none" stroke="var(--primary)" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="<?= htmlspecialchars($f['icon'], ENT_QUOTES, 'UTF-8') ?>" /></svg>
+            <a href="<?= $f['href'] ?>" class="tool-card" aria-label="<?= $f['label'] ?>">
+                <span class="tool-card-icon">
+                    <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="<?= htmlspecialchars($f['icon'], ENT_QUOTES, 'UTF-8') ?>" /></svg>
                 </span>
-                <?= $f['label'] ?>
+                <span>
+                    <span class="tool-card-title"><?= $f['label'] ?></span>
+                    <span class="tool-card-desc"><?= $f['desc'] ?></span>
+                </span>
             </a>
             <?php endforeach; ?>
+            </div>
         </div>
     </div>
 </section>
