@@ -35,6 +35,30 @@
         </div>
     </footer>
 
+    <!-- FAQ Toggle Function -->
+    <script>
+    function toggleFaq(btn) {
+        const body = btn.nextElementSibling;
+        const icon = btn.querySelector('.faq-icon');
+        const expanded = btn.getAttribute('aria-expanded') === 'true';
+        
+        document.querySelectorAll('.faq-body').forEach(function(el) {
+            el.style.display = 'none';
+        });
+        
+        document.querySelectorAll('[onclick="toggleFaq(this)"]').forEach(function(el) {
+            el.setAttribute('aria-expanded', 'false');
+            el.querySelector('.faq-icon').style.transform = '';
+        });
+        
+        if (!expanded) {
+            body.style.display = 'block';
+            btn.setAttribute('aria-expanded', 'true');
+            icon.style.transform = 'rotate(180deg)';
+        }
+    }
+    </script>
+
     <script src="main.js"></script>
 </body>
 
