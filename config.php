@@ -112,6 +112,13 @@ switch ($currentPath) {
         $pageKeywordsText = 'consulting software India, consultant billing software, client management for consultants, GST invoice consultant, retainer billing software, consulting CRM India';
         break;
 
+    case '/professional-services':
+    case '/professional-services.php':
+        $pageTitleText = 'Business Software for Professional Services – Billing, GST SAC Codes & TDS | ZYLO CRM';
+        $pageDescriptionText = 'ZYLO CRM is built for professional services firms. Hourly and retainer billing, GST invoicing with SAC codes, TDS under 194J, project expense tracking, and client management. Free plan available.';
+        $pageKeywordsText = 'professional services software India, billing software professional services, GST SAC code invoicing, TDS 194J professional services, retainer billing software, consulting billing software India';
+        break;
+
     case '/export-import-business':
     case '/export-import-business.php':
         $pageTitleText = 'Software for Export Import Business – Commercial Invoice, HS Codes & Multi-Currency | ZYLO CRM';
